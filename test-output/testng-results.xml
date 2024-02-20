@@ -1,98 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-14T17:20:24 IST" name="Default suite" finished-at="2024-02-14T17:20:32 IST" duration-ms="7916">
+  <suite started-at="2024-02-16T21:58:00 IST" name="Suite" finished-at="2024-02-16T21:58:31 IST" duration-ms="31312">
     <groups>
     </groups>
-    <test started-at="2024-02-14T17:20:24 IST" name="Default test" finished-at="2024-02-14T17:20:32 IST" duration-ms="7916">
-      <class name="seleniumScript.HandlingPaginationDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumScript.HandlingPaginationDemo@2ea41516]" started-at="2024-02-14T17:20:24 IST" name="setUp" finished-at="2024-02-14T17:20:27 IST" duration-ms="3322" status="PASS">
+    <test started-at="2024-02-16T21:58:00 IST" name="Chrome Test" finished-at="2024-02-16T21:58:14 IST" duration-ms="14267">
+      <class name="seleniumScript.AutoSuggestion">
+        <test-method is-config="true" signature="browserIntialisation(java.lang.String)[pri:0, instance:seleniumScript.AutoSuggestion@ffaa6af]" started-at="2024-02-16T21:58:00 IST" name="browserIntialisation" finished-at="2024-02-16T21:58:08 IST" duration-ms="7988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="pagination()[pri:0, instance:seleniumScript.HandlingPaginationDemo@2ea41516]" started-at="2024-02-14T17:20:27 IST" name="pagination" finished-at="2024-02-14T17:20:31 IST" duration-ms="4399" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [70ae85ce6417a0fc35e200d8d18ae167, isElementDisplayed {id=09005EB4DEB604A919D0528C39377943_element_41}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64491/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (70ae85ce6417a0fc35e200d8d18ae167)] -> xpath: //table[@id='example']//tr/td[@class='sorting_1']]
-Session ID: 70ae85ce6417a0fc35e200d8d18ae167]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [70ae85ce6417a0fc35e200d8d18ae167, isElementDisplayed {id=09005EB4DEB604A919D0528C39377943_element_41}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64491/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (70ae85ce6417a0fc35e200d8d18ae167)] -> xpath: //table[@id='example']//tr/td[@class='sorting_1']]
-Session ID: 70ae85ce6417a0fc35e200d8d18ae167
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:283)
-at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:264)
-at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:260)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-at seleniumScript.HandlingPaginationDemo.pagination(HandlingPaginationDemo.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        </test-method> <!-- browserIntialisation -->
+        <test-method signature="testAutoSuggestion()[pri:0, instance:seleniumScript.AutoSuggestion@ffaa6af]" started-at="2024-02-16T21:58:08 IST" name="testAutoSuggestion" finished-at="2024-02-16T21:58:14 IST" duration-ms="5774" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pagination -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.HandlingPaginationDemo@2ea41516]" started-at="2024-02-14T17:20:31 IST" name="tearDown" finished-at="2024-02-14T17:20:32 IST" duration-ms="161" status="PASS">
+        </test-method> <!-- testAutoSuggestion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.AutoSuggestion@ffaa6af]" started-at="2024-02-16T21:58:14 IST" name="tearDown" finished-at="2024-02-16T21:58:14 IST" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumScript.HandlingPaginationDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- seleniumScript.AutoSuggestion -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2024-02-16T21:58:00 IST" name="Edge Test" finished-at="2024-02-16T21:58:31 IST" duration-ms="30912">
+      <class name="seleniumScript.AutoSuggestion">
+        <test-method is-config="true" signature="browserIntialisation(java.lang.String)[pri:0, instance:seleniumScript.AutoSuggestion@f78a47e]" started-at="2024-02-16T21:58:00 IST" name="browserIntialisation" finished-at="2024-02-16T21:58:05 IST" duration-ms="5345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserIntialisation -->
+        <test-method signature="testAutoSuggestion()[pri:0, instance:seleniumScript.AutoSuggestion@f78a47e]" started-at="2024-02-16T21:58:05 IST" name="testAutoSuggestion" finished-at="2024-02-16T21:58:30 IST" duration-ms="25220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutoSuggestion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.AutoSuggestion@f78a47e]" started-at="2024-02-16T21:58:30 IST" name="tearDown" finished-at="2024-02-16T21:58:31 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumScript.AutoSuggestion -->
+    </test> <!-- Edge Test -->
+    <test started-at="2024-02-16T21:58:00 IST" name="Firefox Test" finished-at="2024-02-16T21:58:31 IST" duration-ms="31312">
+      <class name="seleniumScript.AutoSuggestion">
+        <test-method is-config="true" signature="browserIntialisation(java.lang.String)[pri:0, instance:seleniumScript.AutoSuggestion@2a7f1f10]" started-at="2024-02-16T21:58:00 IST" name="browserIntialisation" finished-at="2024-02-16T21:58:11 IST" duration-ms="11591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserIntialisation -->
+        <test-method signature="testAutoSuggestion()[pri:0, instance:seleniumScript.AutoSuggestion@2a7f1f10]" started-at="2024-02-16T21:58:11 IST" name="testAutoSuggestion" finished-at="2024-02-16T21:58:30 IST" duration-ms="18825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutoSuggestion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.AutoSuggestion@2a7f1f10]" started-at="2024-02-16T21:58:30 IST" name="tearDown" finished-at="2024-02-16T21:58:31 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumScript.AutoSuggestion -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
 </testng-results>
