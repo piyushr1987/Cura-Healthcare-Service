@@ -1,16 +1,23 @@
 package javaProgramme;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class CountCharacterInString {
 
 	public static void main(String[] args) {
+		String str = "aaabbtttpppp";
+		char[] c = str.toCharArray();
 
-		String str = "aaaabbbcccddddeeefff";
-		int totalCount = str.length();
-
-		int totalCount_afterRemoving = str.replace("a", "").length();
-
-		int count = totalCount - totalCount_afterRemoving;
-		System.out.println("Number of occurance of a is : " + count);
+		Map<Character, Integer> mapData = new LinkedHashMap<Character, Integer>();
+		for (char ch : c) {
+			if (mapData.containsKey(ch)) {
+				mapData.put(ch, mapData.get(ch) + 1);
+			} else {
+				mapData.put(ch, 1);
+			}
+		}
+		System.out.println(mapData);
 
 	}
 

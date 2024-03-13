@@ -26,6 +26,7 @@ public class FibonacciSeriesUsingArrayList {
 			fibo_data.add(c);
 		}
 		System.out.println(fibo_data);
+		sc.close();
 
 	}
 
