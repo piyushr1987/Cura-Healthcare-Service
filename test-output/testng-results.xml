@@ -2,77 +2,72 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-16T21:58:00 IST" name="Suite" finished-at="2024-02-16T21:58:31 IST" duration-ms="31312">
+  <suite started-at="2024-03-21T17:30:31 IST" name="Default suite" finished-at="2024-03-21T17:30:31 IST" duration-ms="50">
     <groups>
     </groups>
-    <test started-at="2024-02-16T21:58:00 IST" name="Chrome Test" finished-at="2024-02-16T21:58:14 IST" duration-ms="14267">
-      <class name="seleniumScript.AutoSuggestion">
-        <test-method is-config="true" signature="browserIntialisation(java.lang.String)[pri:0, instance:seleniumScript.AutoSuggestion@ffaa6af]" started-at="2024-02-16T21:58:00 IST" name="browserIntialisation" finished-at="2024-02-16T21:58:08 IST" duration-ms="7988" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-03-21T17:30:31 IST" name="Default test" finished-at="2024-03-21T17:30:31 IST" duration-ms="50">
+      <class name="seleniumScript.TestNGDemo">
+        <test-method is-config="true" signature="m1()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m1" finished-at="2024-03-21T17:30:31 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserIntialisation -->
-        <test-method signature="testAutoSuggestion()[pri:0, instance:seleniumScript.AutoSuggestion@ffaa6af]" started-at="2024-02-16T21:58:08 IST" name="testAutoSuggestion" finished-at="2024-02-16T21:58:14 IST" duration-ms="5774" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="m3()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m3" finished-at="2024-03-21T17:30:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutoSuggestion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.AutoSuggestion@ffaa6af]" started-at="2024-02-16T21:58:14 IST" name="tearDown" finished-at="2024-02-16T21:58:14 IST" duration-ms="481" status="PASS">
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="m5()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m5" finished-at="2024-03-21T17:30:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seleniumScript.AutoSuggestion -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2024-02-16T21:58:00 IST" name="Edge Test" finished-at="2024-02-16T21:58:31 IST" duration-ms="30912">
-      <class name="seleniumScript.AutoSuggestion">
-        <test-method is-config="true" signature="browserIntialisation(java.lang.String)[pri:0, instance:seleniumScript.AutoSuggestion@f78a47e]" started-at="2024-02-16T21:58:00 IST" name="browserIntialisation" finished-at="2024-02-16T21:58:05 IST" duration-ms="5345" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- m5 -->
+        <test-method is-config="true" signature="m6()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m6" finished-at="2024-03-21T17:30:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserIntialisation -->
-        <test-method signature="testAutoSuggestion()[pri:0, instance:seleniumScript.AutoSuggestion@f78a47e]" started-at="2024-02-16T21:58:05 IST" name="testAutoSuggestion" finished-at="2024-02-16T21:58:30 IST" duration-ms="25220" status="PASS">
+        </test-method> <!-- m6 -->
+        <test-method signature="TC1()[pri:1, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="TC1" finished-at="2024-03-21T17:30:31 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutoSuggestion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.AutoSuggestion@f78a47e]" started-at="2024-02-16T21:58:30 IST" name="tearDown" finished-at="2024-02-16T21:58:31 IST" duration-ms="323" status="PASS">
+        </test-method> <!-- TC1 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m7" finished-at="2024-03-21T17:30:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seleniumScript.AutoSuggestion -->
-    </test> <!-- Edge Test -->
-    <test started-at="2024-02-16T21:58:00 IST" name="Firefox Test" finished-at="2024-02-16T21:58:31 IST" duration-ms="31312">
-      <class name="seleniumScript.AutoSuggestion">
-        <test-method is-config="true" signature="browserIntialisation(java.lang.String)[pri:0, instance:seleniumScript.AutoSuggestion@2a7f1f10]" started-at="2024-02-16T21:58:00 IST" name="browserIntialisation" finished-at="2024-02-16T21:58:11 IST" duration-ms="11591" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- m7 -->
+        <test-method signature="TC3()[pri:2, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="TC3" finished-at="2024-03-21T17:30:31 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserIntialisation -->
-        <test-method signature="testAutoSuggestion()[pri:0, instance:seleniumScript.AutoSuggestion@2a7f1f10]" started-at="2024-02-16T21:58:11 IST" name="testAutoSuggestion" finished-at="2024-02-16T21:58:30 IST" duration-ms="18825" status="PASS">
+        </test-method> <!-- TC3 -->
+        <test-method is-config="true" signature="m6()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m6" finished-at="2024-03-21T17:30:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutoSuggestion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumScript.AutoSuggestion@2a7f1f10]" started-at="2024-02-16T21:58:30 IST" name="tearDown" finished-at="2024-02-16T21:58:31 IST" duration-ms="873" status="PASS">
+        </test-method> <!-- m6 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m7" finished-at="2024-03-21T17:30:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seleniumScript.AutoSuggestion -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- m7 -->
+        <test-method is-config="true" signature="m6()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m6" finished-at="2024-03-21T17:30:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+        <test-method signature="TC2()[pri:3, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="TC2" finished-at="2024-03-21T17:30:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m7" finished-at="2024-03-21T17:30:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m8" finished-at="2024-03-21T17:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m4()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m4" finished-at="2024-03-21T17:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method is-config="true" signature="m2()[pri:0, instance:seleniumScript.TestNGDemo@5d534f5d]" started-at="2024-03-21T17:30:31 IST" name="m2" finished-at="2024-03-21T17:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- seleniumScript.TestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
